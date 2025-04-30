@@ -1,0 +1,48 @@
+Git is a version control system. Every programmer uses this tool for practice and industry experience.
+*Git Downloads link-https://git-scm.com/downloads
+
+// First commad in Git [Manually]
+* git init {init-> initialize}
+* git Add . {spacific deroctory or . (all file)}
+
+/ commit is use for update version->
+* git commit -m 'version One' [-m means massage]
+
+* Check directory or file commad->ls
+* Check directory or file commad->ls -l
+* Check directory or file commad->ls -a [show hidden file]
+* Check directory or file commad->ls -lh [format by human style]
+
+// Create diroctory
+* mkdir diroctoryName [mkdir means 'make directory']
+
+// Create file
+* touch fileName [touch is used for create file]
+
+// Access diroctory
+* cd diroctoryname
+
+// Edit file->1
+* vim Example.txt [vim is keyword]
+* Enter keyboard i [interactive]
+// file exit and save system
+* press your keyboard 'Esc'
+* type :wq [that means save and exit]
+
+// Edit file->2
+* nano Example.txt [nano is keyword]
+// exit and save system
+* Ctrl+x
+* Y
+* Enter 
+
+// Check git Condition 
+* git status
+
+// Check commit imf
+* git log [show your username,Email,git id ,time & Date ,etc] 
+
+// diroctory or file restore system
+* git restore {file or directory name}
+
+                                           Today Git First Class is Exit
