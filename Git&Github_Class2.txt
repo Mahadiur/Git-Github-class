@@ -1,0 +1,38 @@
+// This command is use for Check personal info
+-> git config --global --list
+
+// Set Editor with command line
+-> git config --global --core editor'vi' [vi means VsCode]
+
+// Edit UserName with command line
+-> git config --global user.name 'name'
+
+// Edit Email with command line
+-> git config --global user.email 'your email'
+
+// Edit commit massage
+-> git log --emend
+
+// provide a short id & log info [system 1]
+-> git log --oneline
+
+// provide a short id & log info [system 2]
+-> git log --oneline --pretty
+
+// switch another commit
+-> git checkout {commit ID}
+
+// Create new branch
+-> git checkout -b {new branch name}
+
+// return main branch
+-> git checkout main
+
+// Add all data in main branch from another branch
+-> git merge {BranchName}
+
+// show all relation with branches like graph
+-> git log --all --graph
+
+                                 Today Git & Github second class is Exit
+
