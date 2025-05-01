@@ -1,0 +1,27 @@
+echo 'msg' >> filename
+**Example
+echo 'This is a file' >> example.txt
+
+// Stash in Git & Github
+* git stash
+-> save all unstaged file
+* git stash list
+-> show all stash history
+* git stash pop
+-> return original interface 
+* git stash apply
+-> Switch last stash but don't delete history
+* git stash clear
+-> delete all stash
+* git stash drop stash@{0}
+-> delete spacific stash
+
+
+// Very important Conseft
+
+*** git cherry-pic <commit-hash>
+-> merge spacific branch spacific file with <commit-hash>
+
+// reset (soft,mixed,hard)
+* git reset --soft head~1
+-> delete spacific commit history but file was staged.
