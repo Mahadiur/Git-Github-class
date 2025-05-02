@@ -25,3 +25,11 @@ echo 'This is a file' >> example.txt
 // reset (soft,mixed,hard)
 * git reset --soft head~1
 -> delete spacific commit history but file was staged.
+* git reset --mixed head~1
+-> delete spacific commit history and file was unstaged.
+* git reset --hard head~1
+-> delete Everything.
+
+//revert 
+* git revert <git-hash>
+-> most usable Conseft for solve problem in git & github .
