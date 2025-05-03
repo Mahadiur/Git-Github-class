@@ -1,0 +1,31 @@
+// clone ->{Github to Local Computer}
+* Example: git clone https://github.com/username/project.git
+
+// fork ->{personal github to another github}
+
+* More important conseft 
+1. PAT->Personal Access Token
+* Connect Git to Github with pat Token
+* proces to genarate token: Github.com -> Setting -> Developer setting -> personal Access token -> token(classic) -> note -> fixed date & genarate token
+* Connect proces: git remote set-url origin https://<pat token>@extension of https url 
+
+2. SSH->Secure shell
+
+
+// Security in Git & Github:
+*** hooks
+-> After git initialize 
+-> cd .git/
+-> cd hooks/
+-> touch pre-commit.txt
+-> chmod 777 pre-commit.txt
+*** this extension only for python
+-> pip3 install black
+* black use for python code formating.
+-> pip3 install flake8
+* flake8 use for python code syntex.
+***IN pre-commit.txt file write git script & done.
+
+***Maually check black & flake8
+1. black <filename>
+2. flake8 --check <filename>
